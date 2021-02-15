@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  background-color: #8A393A;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url("../imagenes/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-color: #8A393A;*/
+    padding-top: 200px;
+    color: blueviolet;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  background-color: black;
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display:block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background-color: #8A393A;
+}
+
+ #cristo img{
+    border: 1px solid #CCCCCC;
+    vertical-align:middle; 
+    margin-bottom: 3px;
+  }
+
+  #virgen img{
+    border: 1px solid #CCCCCC;
+    vertical-align:middle; 
+    margin-bottom: 3px;
+  }
+   
+#cristo{
+    margin: 0.5em 0.8em 0.5em 0; 
+	float:left;
+    color:white;
+    font-style:bold;
+}
+
+#virgen{
+    margin: 0.5em 0.8em 0.5em 0; 
+	float:left;
+    color:white;
+    font-style:bold;
+}
